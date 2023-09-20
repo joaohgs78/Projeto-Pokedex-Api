@@ -56,7 +56,7 @@ export const Button = styled.button`
 
 export const ButtonDetail = styled.button`
   width: 226px;
-   height: 57px;
+   /* height: 57px; */
    border-radius: 8px;
    padding: 4px 10px;
    font-size: 16px;

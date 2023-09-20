@@ -19,7 +19,7 @@ const PokemonProvider = ({ children }) => {
   const getPokemons = async () => {
     let pokemonPoints = [];
 
-    for (let i = 1; i <= 24; i++) {
+    for (let i = 1; i <= 23; i++) {
       pokemonPoints.push(`${BASE_URL}/${i}`);
     }
     await axios
