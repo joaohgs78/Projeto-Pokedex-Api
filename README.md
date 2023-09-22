@@ -1,6 +1,7 @@
 
 #Projeto Pokedex API
 Este é um projeto de Pokedex API criado por joaohgs78. Esta API fornece informações sobre diferentes Pokémon, incluindo seus nomes, tipos, habilidades e muito mais.
+Deploy: https://projeto-pokedex-api-lovat.vercel.app/
 
 Como usar
 Clone o repositório:
