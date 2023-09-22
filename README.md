@@ -1,70 +1,55 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto Pokedex API
+Este é um projeto de Pokedex API criado por joaohgs78. Esta API fornece informações sobre diferentes Pokémon, incluindo seus nomes, tipos, habilidades e muito mais.
 
-## Available Scripts
+Como usar
+Clone o repositório:
+bash
+Copy code
+git clone https://github.com/joaohgs78/Projeto-Pokedex-Api.git
+Instale as dependências:
+bash
+Copy code
+cd Projeto-Pokedex-Api
+npm install
+Inicie o servidor:
+bash
+Copy code
+npm start
+A API estará disponível em http://localhost:3000.
 
-In the project directory, you can run:
+Rotas Disponíveis
+Listar todos os Pokémon
+bash
+Copy code
+GET /pokemon!
 
-### `npm start`
+Retorna uma lista de todos os Pokémon disponíveis.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Obter um Pokémon específico!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+GET /pokemon/:id!
 
-### `npm test`
+Retorna informações detalhadas sobre um Pokémon específico com base no ID.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Procurar Pokémon por nome
+sql
+Copy code
+GET /pokemon/search/:name
+Retorna informações sobre um Pokémon com base no nome.
 
-### `npm run build`
+Contribuindo
+Se você quiser contribuir para este projeto, siga estas etapas:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Faça um fork do repositório
+Crie uma nova branch (git checkout -b feature/nova-feature)
+Faça commit de suas mudanças (git commit -m 'Adicionar nova feature')
+Faça push para a branch (git push origin feature/nova-feature)!
+[Captura de tela 2023-09-15 202431](https://github.com/joaohgs78/Projeto-Pokedex-Api/assets/102187505/fe917ae8-b75c-46af-92b1-facbc3aa748a)
+[Captura de tela 2023-09-15 202412](https://github.com/joaohgs78/Projeto-Pokedex-Api/assets/102187505/a116366a-62ad-4017-bb94-abd710571bb2)
+[Captura de tela 2023-09-15 202350](https://github.com/joaohgs78/Projeto-Pokedex-Api/assets/102187505/9398fc8e-073b-4c45-b1d1-6c0acfd29bba)
+[Captura de tela 2023-09-15 202338](https://github.com/joaohgs78/Projeto-Pokedex-Api/assets/102187505/94a03d6c-f0f4-48d1-ac73-f05cd6c2c711)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Abra um Pull Request
